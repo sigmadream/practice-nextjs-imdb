@@ -5,14 +5,15 @@
 ## Setup
 
 ```bash
-npm install
-npm run dev
+$ npm install
+$ cp .env.local.sample .env.local
+$ npm run dev
 ```
 
-## Dev Step
+## .env.local
 
-```bash
-npx create-next-app@latest
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+`https://developer.themoviedb.org/docs`를 참고해서 `API_KEY`를 작성 후 진행하세요.
+
+```
+API_KEY=helloworld
 ```
